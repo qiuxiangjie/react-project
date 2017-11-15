@@ -9,6 +9,7 @@ import {
 
 import Home from '../page/home/Home';
 import Product from '../page/product/product';
+import Test from '../page/test/Test';
 
 export default () => {
   return (
@@ -17,6 +18,7 @@ export default () => {
         <Route exact path="/" component={Home} />
         <Route path="/app" component={Home} />
         <Route path="/product" component={Product} />
+        <Route path="/Test" component={Test} />
       </div>
     </Router>
   )
