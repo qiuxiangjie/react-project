@@ -1,0 +1,24 @@
+.tab-bar{
+  background:#293957;
+}
+.tab-bar li{
+  float:left;
+  text-align:center;
+  height:.8rem;
+  line-height:1.2rem;
+}
+.tab-bar li a{
+  color:#FFF;
+}
+.tab-bar li:nth-of-type(1) {
+  background:url("/img/my_refund@2x.png") no-repeat center .14rem;
+  background-size: .26rem;
+}
+.tab-bar li:nth-of-type(2) {
+  background:url("/img/apply_progress@2x.png") no-repeat center .14rem;
+  background-size: .26rem;
+}
+.tab-bar li:nth-of-type(3) {
+  background:url("/img/faq@2x.png") no-repeat center .14rem;
+  background-size: .26rem;
+}

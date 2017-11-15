@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="42.52px" height="42.52px" viewBox="0 0 42.52 42.52" enable-background="new 0 0 42.52 42.52" xml:space="preserve">
+<g>
+	<g>
+		<circle fill="#FFFFFF" cx="21.427" cy="20.593" r="19"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M24.25,24.207c-0.152,0-0.306-0.035-0.447-0.105c-0.339-0.169-0.553-0.516-0.553-0.895v-2h-1v-2h2
+				c0.552,0,1,0.448,1,1v1l2.4-1.8c0.173-0.13,0.384-0.2,0.6-0.2h3v-7h-10v3h-2v-3c0-1.104,0.897-2,2-2h10c1.103,0,2,0.896,2,2v7
+				c0,1.103-0.897,2-2,2h-2.667l-3.733,2.8C24.673,24.139,24.462,24.207,24.25,24.207z"/>
+		</defs>
+		<defs>
+			<path id="SVGID_2_" d="M17.25,18.207c-1.103,0-2,0.896-2,2c0,1.103,0.897,2,2,2s2-0.897,2-2
+				C19.25,19.103,18.353,18.207,17.25,18.207z M17.25,24.207c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4
+				S19.456,24.207,17.25,24.207z"/>
+		</defs>
+		<use xlink:href="#SVGID_1_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="#FF6B38"/>
+		<use xlink:href="#SVGID_2_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="#FF6B38"/>
+		<clipPath id="SVGID_3_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<clipPath id="SVGID_4_" clip-path="url(#SVGID_3_)">
+			<use xlink:href="#SVGID_2_"  overflow="visible"/>
+		</clipPath>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_5_" d="M11.409,30.207h11.683c-0.598-1.808-2.833-3-5.841-3S12.007,28.399,11.409,30.207z M25.25,32.207h-16v-1
+				c0-3.533,3.29-6,8-6s8,2.467,8,6V32.207z"/>
+		</defs>
+		<use xlink:href="#SVGID_5_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="#FF6B38"/>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  overflow="visible"/>
+		</clipPath>
+	</g>
+</g>
+<path fill="#FF6B38" d="M21.26,1.083c-11.063,0-20.031,8.968-20.031,20.031s8.968,20.031,20.031,20.031s20.031-8.968,20.031-20.031
+	S32.323,1.083,21.26,1.083z M21.166,39.208c-9.976,0-18.062-8.087-18.062-18.063S11.191,3.083,21.166,3.083
+	s18.062,8.087,18.062,18.062S31.142,39.208,21.166,39.208z"/>
+</svg>
