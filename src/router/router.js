@@ -1,6 +1,3 @@
-/**
- * Created by Zhoujianxiang on 2017/10/12.
- */
 import React from 'react'
 import {
   BrowserRouter as Router,

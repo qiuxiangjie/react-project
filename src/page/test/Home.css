@@ -1,28 +1,27 @@
-.App {
-  text-align: center;
+.loan-card {
+  padding: .15rem;
+  background: #fff;
+  color:#999;
+  margin-top:.06rem;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.loan-card-left {
+  float: left;
+  width:40%;
+  text-align:center;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.loan-card-right {
+  float: right;
+  width: 60%;
+  text-align:left;;
 }
-
-.App-title {
-  font-size: 1.5em;
+.loan-card-money{
+  color: #ff6b38;
+  font-size: 0.24rem;
 }
-
-.App-intro {
-  font-size: large;
+.loan-card-til{
+  color:#333;
+  font-size:.14rem;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.loan-card-right p {
+  font-size: .12rem;
 }

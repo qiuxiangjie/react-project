@@ -4,15 +4,15 @@ ul li{
 }
 html {height: 100%}
 body{
-    background-color: #ddd;
+    background-color: #f4f4f4;
     font-family: "微软雅黑";
     width:100%;
     height:100%;
     font-size: .14rem;
+    color:#333;
 }
-.clear{
-    clear: both;
-}
+.clear {zoom:1;}    /*==for IE6/7 Maxthon2==*/
+.clear:after,.clear:before {content:".";display:block;height:0;clear:both;visibility:hidden;line-height:0;font-size:0;}
 a{
     text-decoration: none;
     color: #999;
