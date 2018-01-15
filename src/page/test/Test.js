@@ -1,7 +1,13 @@
 import React, { PureComponent } from 'react';
 import './Home.css';
-import TabBar from '../../component/tabBar/tabBar'
-
+import TabBar from '../../component/tabBar/tabBar';
+import { Form, Input, Button, Progress,Card, Col } from 'antd'
+const FormItem = Form.Item;
+const propsNew = {
+  labelCol: { span: 4 },
+  wrapperCol: { span: 20 },
+};
+@Form.create()
 export default class Test extends PureComponent {
   constructor(props) {
     super(props);
@@ -32,9 +38,29 @@ export default class Test extends PureComponent {
   }
   render() {
     console.log('Home');
+    const { getFieldDecorator } = this.props.form;
     return (
       <div>
         <TabBar/>
+        <Form>
+          <FormItem
+            { ...propsNew }
+          label='姓名'>
+            <Col>
+              {getFieldDecorator('oldPassword',
+                {
+                  rules: [
+                    { required: true, message: '请输入旧密码' },
+                    { min: 8, message: '密码长度过短' },
+                    { max: 16, message: '密码长度过长' },
+                  ]
+                }
+              )(
+                <Input style={{width: '41.6%'}} type="password" />
+              )}
+            </Col>
+          </FormItem>
+        </Form>
         <div className="App">
           <p className="App-intro" onClick={() => { this.handlerClick() }}>
             {this.state.test}{this.props.ttt}
