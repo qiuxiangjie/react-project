@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import './Home.css';
 import TabBar from '../../component/tabBar/tabBar';
-import { Form, Input, Button, Progress,Card, Col } from 'antd'
+import { Form, Input, Col } from 'antd'
 const FormItem = Form.Item;
 const propsNew = {
   labelCol: { span: 4 },
